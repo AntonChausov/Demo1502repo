@@ -64,6 +64,7 @@
   <catalogs>Catalog.НоменклатурныеГруппы</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Поставщики</catalogs>
+  <catalogs>Catalog.Покупатели</catalogs>
   <documents>Document.УстановкаЦен</documents>
   <documents>Document.УстановкаСкидок</documents>
   <documents>Document.ПоступлениеТоваровИУслуг</documents>
