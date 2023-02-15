@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1d9cf7d-8fd5-4fff-82bf-5b12aa47e40c">
+  <producedTypes>
+    <objectType typeId="fe1f49a8-5dfc-4093-96fd-35bd36695704" valueTypeId="e0385f91-8156-4577-ac9a-e907c93880cb"/>
+    <refType typeId="fad1da6c-3aea-4875-98c1-4ed854b4f803" valueTypeId="9f4bbb86-5ccf-4371-9817-5a618d54a75b"/>
+    <selectionType typeId="e1e2c9b1-7ae9-42fc-adf6-6600f568ef28" valueTypeId="a46567e9-906e-4875-90f8-518a65d738c8"/>
+    <listType typeId="88cadc72-72ed-437f-9ba8-ef3519a8fcba" valueTypeId="d52bede9-b9c9-4c67-a2b1-2a2bb7007484"/>
+    <managerType typeId="850407b2-a747-4508-8654-389edd780cb1" valueTypeId="11f7feb2-2da4-4b4c-8782-16718c0f414a"/>
+  </producedTypes>
+  <name>Счет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Счет.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="bd55fd76-dfc4-40ee-b59f-bc0e680281c3">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b0ccbc01-84ae-4877-b596-4deafa9b5d76">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

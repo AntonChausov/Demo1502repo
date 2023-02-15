@@ -74,6 +74,7 @@
   <documents>Document.НачислениеСписком</documents>
   <documents>Document.НачислениеПоОкладу</documents>
   <documents>Document.Квитанция</documents>
+  <documents>Document.Счет</documents>
   <sequences>Sequence.ХронологияПриходРасход</sequences>
   <documentJournals>DocumentJournal.ЦеныИСкидки</documentJournals>
   <documentJournals>DocumentJournal.Сделки</documentJournals>
