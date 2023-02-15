@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22b55fd5-dc94-4480-9a2c-7dd5ed765afd">
+  <producedTypes>
+    <objectType typeId="5247608b-8e2f-444b-a4eb-ac1da0b3d3eb" valueTypeId="fa79d196-4d69-40a2-a1e3-8d02a10f99ef"/>
+    <refType typeId="9f10ec23-5652-454a-8ce1-409c70864749" valueTypeId="cc84dbb0-d6f2-4be5-81d9-dc6616997a11"/>
+    <selectionType typeId="cbe24032-37d4-4dfa-878a-7dce811a4702" valueTypeId="3a16dfb7-b9e3-43bd-96b8-e834ee8e325f"/>
+    <listType typeId="87159140-2603-49cd-a55e-1a4f6cb0573c" valueTypeId="e88d56bd-22d2-43d1-bdc2-159bd5c311f7"/>
+    <managerType typeId="42cfe190-babd-4da8-8188-2fdb870ea8a3" valueTypeId="ba5cf594-3e7c-46c2-9526-068bb5fc29f5"/>
+  </producedTypes>
+  <name>Квитанция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Квитанция</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Квитанция.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="58ea6139-a7b5-426a-a36a-8f6250a1df59">
+    <name>СчетПлательщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет плательщика</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
