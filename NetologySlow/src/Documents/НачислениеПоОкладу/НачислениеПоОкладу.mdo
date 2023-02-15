@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a733755-e282-4cea-836e-17e128074726">
+  <producedTypes>
+    <objectType typeId="e353619f-96fa-45c3-991b-2661ca8e0736" valueTypeId="c7b985d1-42ee-47d9-8480-4cc3ab42a3f9"/>
+    <refType typeId="6af32d06-5647-4265-aeff-d43221f9b775" valueTypeId="b036c710-09ac-4fbe-9acd-67d8f17e04bf"/>
+    <selectionType typeId="39e6055e-4b37-4206-af4b-a4d2c9db7d67" valueTypeId="f6a3c7e6-2aeb-454d-93b6-f8f78ac21787"/>
+    <listType typeId="33b2f85a-30ff-4b26-b528-13cb60f02a59" valueTypeId="1af43d5f-e654-47b9-8542-4f2f5d08a591"/>
+    <managerType typeId="31fdb6b9-8cd7-49c0-b6a9-22f4013da40c" valueTypeId="0bb59642-1c08-4dd7-93a9-fdc3679938c1"/>
+  </producedTypes>
+  <name>НачислениеПоОкладу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисление по окладу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.НачислениеПоОкладу.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.НачислениеПоОкладу.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>CalculationRegister.Зарплата</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="d19dd65d-5dce-4807-9cc1-44c54d5706ec">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="f26cde40-189f-4697-960f-4d9f13445ae4">
+    <producedTypes>
+      <objectType typeId="f9d17519-8f22-48ed-8d27-1a26104039a3" valueTypeId="6d31877a-20ec-4b98-8fab-daacfed37ffa"/>
+      <rowType typeId="39a27a14-6875-46a6-98cf-8192cb8a737a" valueTypeId="a76f3319-508b-44ca-8ab5-5c09d3a55206"/>
+    </producedTypes>
+    <name>Сотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудники</value>
+    </synonym>
+    <attributes uuid="e0cecc91-a8b7-4e8e-bbf5-61c5272d9713">
+      <name>ВидРасчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид расчета</value>
+      </synonym>
+      <type>
+        <types>ChartOfCalculationTypesRef.НачисленияУдержания</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="62bb849c-43e0-430c-9a05-c16e4e207a4e">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d8aabbca-2551-4ff6-96be-6315d0e65e4f">
+      <name>ДатаНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8162f4e4-e341-45df-9935-f56fdb220374">
+      <name>ДатаОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4c1769e9-50c5-4955-960e-31bba26288f6">
+      <name>СуммаОклада</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма оклада</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Сумма</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0e05056b-5d71-45ba-8b48-025756fb2dc6">
+      <name>КоличествоРабочихДней</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество рабочих дней</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Количество</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4b154a8e-b0a7-4e59-8c25-a57cb82b16dd">
+      <name>СтавкаОдногоДня</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ставка одного дня</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Сумма</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

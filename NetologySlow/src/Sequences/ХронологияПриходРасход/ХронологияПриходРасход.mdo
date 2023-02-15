@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Sequence xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e34eea08-9ce7-436c-b858-fe3a11d9edd3">
+  <producedTypes>
+    <recordType typeId="f45a0b4b-81ad-4c8b-90c0-01b8dc897d39" valueTypeId="2510e821-4e9f-4f9a-9220-feeb054c99e8"/>
+    <managerType typeId="92eeb924-435f-40fe-b894-3e0cb1ac0a5d" valueTypeId="c483a9c5-a6d8-4fde-b305-34ced66a8159"/>
+    <recordSetType typeId="9ea7cb55-7d62-4442-9df4-f68eaa3b1fc8" valueTypeId="2fbcb7de-1613-449d-ad8a-cf671e69e7cb"/>
+  </producedTypes>
+  <name>ХронологияПриходРасход</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хронология приход расход</value>
+  </synonym>
+  <documents>Document.ПоступлениеТоваровИУслуг</documents>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
+  <registerRecords>AccumulationRegister.Товары</registerRecords>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Sequence>

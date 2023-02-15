@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fde907d7-145a-49da-a8eb-3cc59dbaa26b">
+  <producedTypes>
+    <objectType typeId="f8940cfd-76af-4f54-932f-28f0bb5e937b" valueTypeId="dc2e5405-ab5d-4fbd-a58e-a9cd81a53187"/>
+    <refType typeId="121e831d-dc9b-497f-bba0-c09084f77f3a" valueTypeId="6d911706-46f4-4c41-b26f-834f81dc842d"/>
+    <selectionType typeId="3b96eaa9-979b-4ce8-9f98-2e7678608002" valueTypeId="fedb3413-c3ad-4470-b303-5e8b7289c98f"/>
+    <listType typeId="14aa68d8-1da1-44f9-b663-81c75d855e2d" valueTypeId="db7d90ba-eb1b-4493-864e-9c55dc65fd26"/>
+    <managerType typeId="97637bb3-97a9-4b60-ab69-32f77ba37883" valueTypeId="475a8809-4f81-44a5-8233-4f034f03c77d"/>
+  </producedTypes>
+  <name>НачислениеСписком</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисление списком</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.НачислениеСписком.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.НачислениеСписком.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>CalculationRegister.Зарплата</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="b7c2958b-958d-4ac6-9b36-daf856e4a517">
+    <name>Начисление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начисление</value>
+    </synonym>
+    <type>
+      <types>ChartOfCalculationTypesRef.НачисленияУдержания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="44ae730a-94ca-4d8a-a3e3-b0f8d7b3f592">
+    <name>НачалоПериодаДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода действия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8cbbb0fd-0e0c-46cc-8ae8-0082882e852a">
+    <name>КонецПериодаДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода действия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="17aec713-c1a3-41de-8708-98dfc55d559d">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="68e40b3b-41cc-40b3-a810-794d62820b79">
+    <producedTypes>
+      <objectType typeId="99cdb552-571a-4a7b-9af0-4058c3796bc8" valueTypeId="05f1c2e3-2fc8-4290-ad11-baf0a8da0529"/>
+      <rowType typeId="a950a3df-2ef8-4918-bca6-a53edfb4e39a" valueTypeId="a7c46300-8bb6-49d5-84f6-0b606df9daaa"/>
+    </producedTypes>
+    <name>Сотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудники</value>
+    </synonym>
+    <attributes uuid="3e801d3f-537d-4339-b044-1db89b7cf7ed">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="39bb1847-10fc-4236-91a4-c12ecb61b279">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Сумма</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

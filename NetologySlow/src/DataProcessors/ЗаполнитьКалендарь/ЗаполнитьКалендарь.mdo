@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02ffcd37-f913-417a-ba7a-11d0550b0500">
+  <producedTypes>
+    <objectType typeId="9ad07e19-4c6b-4054-b0c9-87c22965e68c" valueTypeId="0452c5ad-3267-4937-8630-06eebbaf98c6"/>
+    <managerType typeId="9834a502-8703-449e-9037-aa1ff2b74094" valueTypeId="9eda6f76-c927-49e7-850b-0ded90ce45dd"/>
+  </producedTypes>
+  <name>ЗаполнитьКалендарь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнить календарь</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗаполнитьКалендарь.Form.Форма</defaultForm>
+  <explanation>
+    <key>ru</key>
+    <value>Запорлнение Регистра сведений Календарь</value>
+  </explanation>
+  <forms uuid="40be9c17-7d65-4bb7-8790-a188b5febf95">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

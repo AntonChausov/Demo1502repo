@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74ddaba5-7253-46ee-952a-d60912f16b96">
+  <name>Учет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Учет</picture>
+  </picture>
+  <content>CommonPicture.Учет</content>
+  <content>Constant.ВестиРасчетЗарплаты</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.НоменклатурныеГруппы</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Document.ПоступлениеТоваровИУслуг</content>
+  <content>Document.РеализацияТоваровИУслуг</content>
+  <content>Document.ПоступлениеДенежныхСредств</content>
+  <content>Document.СписаниеДенежныхСредств</content>
+  <content>DocumentJournal.Сделки</content>
+  <content>DocumentJournal.Деньги</content>
+  <content>Report.ВзаиморасчетыСКонтрагентами</content>
+  <content>Report.ДвижениеТоваров</content>
+  <content>Report.ДоходыИРасходы</content>
+  <content>InformationRegister.Цены</content>
+  <content>InformationRegister.Скидки</content>
+  <content>AccumulationRegister.Товары</content>
+  <content>AccumulationRegister.ВзаиморасчетыСКонтрагентами</content>
+  <content>AccumulationRegister.Доходы</content>
+  <content>AccumulationRegister.Расходы</content>
+  <content>ChartOfAccounts.Управленческий</content>
+  <content>AccountingRegister.Управленческий</content>
+  <content>ChartOfCharacteristicTypes.ВидыСубконто</content>
+</mdclass:Subsystem>

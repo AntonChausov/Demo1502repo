@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65403b98-00b4-4859-ae43-4cc4a1b5b677">
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.КартинкаНастройки</picture>
+  </picture>
+  <content>Constant.ВестиРасчетЗарплаты</content>
+  <content>FunctionalOption.ВестиРасчетЗарплаты</content>
+  <content>Catalog.Сотрудники</content>
+  <content>CommonCommand.НастройкаПрограммы</content>
+  <content>CommonForm.НастройкаПрограммы</content>
+  <content>Catalog.Контрагенты</content>
+  <content>SessionParameter.ТекущийСотрудник</content>
+  <content>DefinedType.Сумма</content>
+  <content>Enum.Пол</content>
+  <content>Enum.ЮридическоеФизическоеЛицо</content>
+  <content>Role.ПолныеПрава</content>
+  <content>Role.БазовыеПрава</content>
+  <content>Catalog.НоменклатурныеГруппы</content>
+  <content>Enum.ТипыНоменклатуры</content>
+  <content>Enum.СтавкиНДС</content>
+  <content>Catalog.Номенклатура</content>
+  <content>InformationRegister.Цены</content>
+  <content>Document.УстановкаЦен</content>
+  <content>InformationRegister.Скидки</content>
+  <content>Document.УстановкаСкидок</content>
+  <content>DocumentJournal.ЦеныИСкидки</content>
+  <content>CommonPicture.КартинкаНастройки</content>
+</mdclass:Subsystem>

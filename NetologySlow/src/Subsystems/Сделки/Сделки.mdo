@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1278de7e-8a15-4791-b694-c215afa19fcd">
+  <name>Сделки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сделки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Деньги</picture>
+  </picture>
+  <content>CommonPicture.Деньги</content>
+  <content>AccumulationRegister.Товары</content>
+  <content>AccumulationRegister.ВзаиморасчетыСКонтрагентами</content>
+  <content>AccumulationRegister.Доходы</content>
+  <content>AccumulationRegister.Расходы</content>
+  <content>Document.ПоступлениеТоваровИУслуг</content>
+  <content>Document.РеализацияТоваровИУслуг</content>
+  <content>DocumentJournal.Сделки</content>
+  <content>Report.ВзаиморасчетыСКонтрагентами</content>
+  <content>Report.ДвижениеТоваров</content>
+  <content>Sequence.ХронологияПриходРасход</content>
+  <content>Report.ДоходыИРасходы</content>
+</mdclass:Subsystem>
